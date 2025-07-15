@@ -59,7 +59,7 @@ input[type="number"]:focus {
 button {
     margin-left: 6px;
     background: #434242;
-    color: #FFD600;
+    color: #ffffff;
     font-size: 1.2em;
     margin: 0 10px;
     border: none;
@@ -71,18 +71,18 @@ button {
 }
 
 button:hover {
-    background: #FFD600;
-    color: #232323;
+    background: #ffffff;
+    color: #434242;
 }
 
 .clear {
-    background: #FF3131;
-    color: #fff;
+    background: #ffffff;
+    color: #434242;
 }
 
 .clear:hover {
-    background: #fff;
-    color: #FF3131;
+    background: #434242;
+    color: #ffffff;
 }
 
 input[type="radio"] {
