@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Unit converter</h1>
+        <div class = "box">
+            <h2>Length</h2>
+            <label>Enter value here:</label>
+            <input type = "number" placeholder="value" id = "length"/>
+            <br/>
+            <input type = "radio" name = "length" id = "meters" value = "meters"/>meters
+            <input type = "radio" name = "length" id = "feet" value  = "feet"/>feet
+            <br/>
+            <button class = "submit" id = "submit-length">Submit</button>
+            <button class = "clear" id = "clear-length">Clear</button>
+            <h3 id = "output-length"></h3>
+        </div>
+        <div class = "box">
+            <h2>Mass</h2>
+            <label>Enter value here:</label>
+            <input type = "number" placeholder="value" id = "mass"/>
+            <br/>
+            <input type = "radio" name = "mass" id = "kilos" value = "kilos"/>kilograms
+            <input type = "radio" name = "mass" id = "pounds" value = "pounds" />pounds
+            <br/>
+            <button class = "submit" id = "submit-mass">Submit</button>
+            <button class = "clear" id = "clear-mass">Clear</button>
+            <h3 id = "output-mass"></h3>
+        </div>
+        <div class = "box">
+            <h2>Volume</h2>
+            <label>Enter value here:</label>
+            <input type = "number" placeholder="value" id = "volume"/>
+            <br/>
+            <input type = "radio" name = "volume" id = "liters" value = "liters"/>liters
+            <input type = "radio" name = "volume" id = "gallons" value= "gallons"/>gallons
+            <br/>
+            <button class = "submit" id = "submit-volume">Submit</button>
+            <button class = "clear" id = "clear-volume">Clear</button>
+            <h3 id = "output-volume"></h3>
+        </div>
+    </div>
+<script src = 'script-functions.js'></script>
+<script src = "script.js"></script>
+</body>
+</html>
