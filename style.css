@@ -45,7 +45,6 @@ input[type="number"], input[type="radio"] {
 input[type="number"] {
     background: #181818;
     color: #FFD600;
-    border: 1px solid #FFD600;
     border-radius: 6px;
     padding: 0.5em;
     outline: none;
@@ -77,11 +76,11 @@ button:hover {
 
 .clear {
     background: #ffffff;
-    color: #434242;
+    color: #FFD600;
 }
 
 .clear:hover {
-    background: #434242;
+    background: #FFD600;
     color: #ffffff;
 }
 
