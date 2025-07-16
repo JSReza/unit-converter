@@ -42,7 +42,7 @@ massSubmit.addEventListener('click', function(e){
     const lbs = document.getElementById('kilos')
     const kilos = document.getElementById('pounds')
     if((parseInt(massInput.value) > 0) && ((lbs.checked)||(kilos.checked))){
-        if(lbs.checked){
+        if(kilos.checked){
             let input = parseInt(massInput.value)
             let output = lbsToKg(input)
             outputMass.textContent = `${input} pounds is ${output.toFixed(2)} kilograms`
